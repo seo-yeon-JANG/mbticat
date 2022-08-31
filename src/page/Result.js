@@ -30,6 +30,7 @@ const Result = () =>{
             <Desc>예비 집사님과 찰떡궁합인 고양이는 {resultData.name}입니다.</Desc>
             <ButtonGroup>
             <Button onClick={()=>navigate('/')}>테스트 다시하기</Button>
+            <Button onClick={()=>navigate('/')} style={{marginLeft:10}}>카카오톡 공유하기</Button>
             </ButtonGroup>
         </Wrapper>
     )
@@ -61,4 +62,5 @@ const Desc = styled.div`
 const ButtonGroup = styled.div`
     diplay:flex;
     flex-direction:row;
+    
 `
