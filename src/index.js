@@ -7,11 +7,9 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode> 
     <BrowserRouter>
     <App />
     </BrowserRouter>
-  </StrictMode>
 );
 
 //StricMode는 안전하지 않은 생명주기를 사용하는 컴포넌트 발견, 레거시 문자열 ref 사용에 대한 경고, 권장하지 않는 findDOMNode 사용에 대한 경고,
